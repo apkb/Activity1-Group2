@@ -157,7 +157,7 @@ public class RuntimeConfigurable implements Serializable {
 	 *            current component helper
 	 * @return AttributeComponentInformation instance
 	 */
-	private AttributeComponentInformation DetermineRestrictedAttribute(String name, ComponentHelper componentHelper) {
+	private AttributeComponentInformation DetermineRestrictedAttributeValue(String name, ComponentHelper componentHelper) {
 		if (name.indexOf(':') == -1) {
 			return new AttributeComponentInformation(null, false);
 		}
